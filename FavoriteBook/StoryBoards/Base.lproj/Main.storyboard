@@ -283,6 +283,7 @@
                         <outlet property="authorTextField" destination="LUu-Z3-DLF" id="ZbN-XG-ild"/>
                         <outlet property="genreTextField" destination="adW-4B-aqi" id="i02-of-Tks"/>
                         <outlet property="lengthTextField" destination="PDc-Pg-xJn" id="6Za-kS-h9A"/>
+                        <outlet property="savebutton" destination="jmZ-mC-6hz" id="DIT-Gn-IyU"/>
                         <outlet property="titleTextFiels" destination="YV0-J1-Z19" id="xWz-Ok-REa"/>
                     </connections>
                 </tableViewController>
