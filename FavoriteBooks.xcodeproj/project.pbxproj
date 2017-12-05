@@ -58,16 +58,40 @@
 		2C5E3E181E514CC400C02C5F /* FavoriteBook */ = {
 			isa = PBXGroup;
 			children = (
-				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
-				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
 				2C5E3E191E514CC400C02C5F /* AppDelegate.swift */,
-				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
-				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				E9C34A581FD6D36F00A1B1DD /* Controller */,
+				E9C34A591FD6D37D00A1B1DD /* Model */,
+				E9C34A5A1FD6D3A300A1B1DD /* StoryBoards */,
 				2C5E3E201E514CC400C02C5F /* Assets.xcassets */,
-				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
 				2C5E3E251E514CC400C02C5F /* Info.plist */,
 			);
 			path = FavoriteBook;
+			sourceTree = "<group>";
+		};
+		E9C34A581FD6D36F00A1B1DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
+				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9C34A591FD6D37D00A1B1DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E2B1E514CE500C02C5F /* Book.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9C34A5A1FD6D3A300A1B1DD /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
+				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
