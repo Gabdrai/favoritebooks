@@ -267,6 +267,9 @@
                                                     <rect key="frame" x="170" y="7" width="34" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="Save"/>
+                                                    <connections>
+                                                        <action selector="saveTheBook:" destination="zdW-1s-cbA" eventType="touchUpInside" id="N7s-8R-1Kg"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -284,7 +287,7 @@
                         <outlet property="genreTextField" destination="adW-4B-aqi" id="i02-of-Tks"/>
                         <outlet property="lengthTextField" destination="PDc-Pg-xJn" id="6Za-kS-h9A"/>
                         <outlet property="savebutton" destination="jmZ-mC-6hz" id="DIT-Gn-IyU"/>
-                        <outlet property="titleTextFiels" destination="YV0-J1-Z19" id="xWz-Ok-REa"/>
+                        <outlet property="titleTextField" destination="YV0-J1-Z19" id="UZN-2U-63Q"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oOZ-Xt-g7G" userLabel="First Responder" sceneMemberID="firstResponder"/>

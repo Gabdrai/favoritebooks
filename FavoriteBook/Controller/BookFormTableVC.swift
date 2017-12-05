@@ -8,8 +8,11 @@
 import UIKit
 
 class BookFormTableVC: UITableViewController {
+    
+    
+    var book: Book?
 
-    @IBOutlet weak var titleTextFiels: UITextField!
+    @IBOutlet weak var titleTextField: UITextField!
     
     @IBOutlet weak var authorTextField: UITextField!
     
@@ -17,23 +20,38 @@ class BookFormTableVC: UITableViewController {
     
     @IBOutlet weak var lengthTextField: UITextField!
     
-    @IBOutlet weak var savebutton: UIButton!
+    @IBAction func saveTheBook(_ sender: Any) {
+        
+    }
+    
+    struct PropertyKeys {
+        static let unwind = "UnwindToBookTable"
+    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        
+    
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        
+    updateView()
     }
 
-   
+    func updateView() {
+        guard let book = book else { return }
+        
+        titleTextField.text = book.title
+        authorTextField.text = book.author
+        genreTextField.text = book.genre
+        lengthTextField.text = book.length
+    }
 
     // MARK: - Table view data source
 

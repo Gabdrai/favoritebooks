@@ -75,6 +75,7 @@
 			children = (
 				2C5E3E331E514EA700C02C5F /* BookTableViewController.swift */,
 				2C5E3E2F1E514D3400C02C5F /* BookFormViewController.swift */,
+				E9C34A5B1FD6DB0E00A1B1DD /* BookFormTableVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				2C5E3E1D1E514CC400C02C5F /* Main.storyboard */,
-				E9C34A5B1FD6DB0E00A1B1DD /* BookFormTableVC.swift */,
 				2C5E3E221E514CC400C02C5F /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
