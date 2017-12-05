@@ -21,7 +21,10 @@ class BookFormTableVC: UITableViewController {
     @IBOutlet weak var lengthTextField: UITextField!
     
     @IBAction func saveTheBook(_ sender: Any) {
-        
+        guard let title = titleTextField.text,
+            let author = authorTextField.text,
+            let genre = genreTextField.text,
+            let length = lengthTextField.text else {return}
     }
     
     struct PropertyKeys {
